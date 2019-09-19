@@ -12,6 +12,7 @@
 		1435079E233339DA005E6F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1435079C233339DA005E6F26 /* Main.storyboard */; };
 		143507A0233339DC005E6F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1435079F233339DC005E6F26 /* Assets.xcassets */; };
 		143507A3233339DC005E6F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143507A1233339DC005E6F26 /* LaunchScreen.storyboard */; };
+		143507AC23333A02005E6F26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143507AB23333A02005E6F26 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1435079F233339DC005E6F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143507A2233339DC005E6F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		143507A4233339DC005E6F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143507AB23333A02005E6F26 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143507AC23333A02005E6F26 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				14350797233339DA005E6F26 /* 03WKWebViewTest */,
 				14350796233339DA005E6F26 /* Products */,
+				143507AA23333A02005E6F26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				143507A4233339DC005E6F26 /* Info.plist */,
 			);
 			path = 03WKWebViewTest;
+			sourceTree = "<group>";
+		};
+		143507AA23333A02005E6F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				143507AB23333A02005E6F26 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
